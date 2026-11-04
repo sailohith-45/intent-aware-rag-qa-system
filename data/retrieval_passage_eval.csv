@@ -1,0 +1,31 @@
+query,relevant_article_id,relevant_chunk_ids,topic,expected_fact
+What states does a process lifecycle transition through?,os_process_mgmt,os_process_mgmt_01,Operating Systems,"New, Ready, Running, Waiting, and Terminated states"
+What algorithms does the CPU scheduler select among ready processes?,os_process_mgmt,os_process_mgmt_01,Operating Systems,"FCFS, SJF, Priority Scheduling, and Round Robin"
+What does context switching save into the Process Control Block?,os_process_mgmt,os_process_mgmt_01,Operating Systems,Saves active process state into PCB and loads another process state
+What are the four Coffman conditions for deadlock?,os_deadlock_sync,os_deadlock_sync_01,Operating Systems,"Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait"
+How does Banker's algorithm ensure the system remains safe?,os_deadlock_sync,os_deadlock_sync_01,Operating Systems,Simulates resource allocation before granting requests to ensure safe state
+What is the difference between a mutex and a semaphore in synchronization?,os_deadlock_sync,os_deadlock_sync_01,Operating Systems,Mutex provides binary ownership; semaphore maintains integer counter
+What hardware component translates virtual addresses into physical addresses?,os_virtual_memory,os_virtual_memory_01,Operating Systems,Memory Management Unit (MMU) translates virtual to physical addresses
+What happens when a process accesses a page not present in physical RAM?,os_virtual_memory,os_virtual_memory_01,Operating Systems,Hardware triggers a page fault trap causing OS to fetch missing page from disk
+What are common page replacement algorithms in virtual memory?,os_virtual_memory,os_virtual_memory_01,Operating Systems,"Least Recently Used (LRU), FIFO, and Optimal (OPT)"
+What does ACID stand for in database transaction management?,db_relational_acid,db_relational_acid_01,Database Systems,"Atomicity, Consistency, Isolation, and Durability"
+How does Write-Ahead Logging guarantee transaction durability?,db_relational_acid,db_relational_acid_01,Database Systems,Appends change records to persistent disk logs before data pages
+What is the difference between 2NF and 3NF in database normalization?,db_normalization_indexes,db_normalization_indexes_01,Database Systems,2NF eliminates partial dependencies; 3NF removes transitive dependencies
+What does Boyce-Codd Normal Form require for every determinant?,db_normalization_indexes,db_normalization_indexes_01,Database Systems,Requires every determinant to be a superkey
+Why are B+ Trees widely used for database indexing?,db_normalization_indexes,db_normalization_indexes_01,Database Systems,All values reside at leaf level forming a linked list optimized for range scans
+How many clustered indexes can exist on a database table?,db_normalization_indexes,db_normalization_indexes_01,Database Systems,Only one clustered index because it dictates physical sort order on disk
+What packets are exchanged in the TCP three-way handshake?,net_tcp_udp,net_tcp_udp_01,Computer Networks,"SYN, SYN-ACK, and ACK packets"
+What is the overhead size of a standard UDP packet header?,net_tcp_udp,net_tcp_udp_01,Computer Networks,Fixed 8-byte overhead
+What are the congestion control algorithms used by TCP?,net_tcp_udp,net_tcp_udp_01,Computer Networks,"AIMD, Slow Start, Congestion Avoidance, and Fast Recovery"
+Which OSI layer handles MAC addressing and framing?,net_osi_layers,net_osi_layers_01,Computer Networks,Data Link layer (layer 2) handles frame delivery and MAC addressing
+Which OSI layer handles logical IP addressing and packet routing?,net_osi_layers,net_osi_layers_01,Computer Networks,Network layer (layer 3) handles logical IP addressing and routing
+What property does a Binary Search Tree maintain?,dsa_trees_graphs,dsa_trees_graphs_01,Data Structures & Algorithms,Left subtree contains smaller keys; right subtree contains greater keys
+What is the time complexity of Breadth-First Search on a graph?,dsa_trees_graphs,dsa_trees_graphs_01,Data Structures & Algorithms,O(V + E) time using a FIFO queue
+What is the time complexity of Dijkstra algorithm with a min-priority queue?,dsa_trees_graphs,dsa_trees_graphs_01,Data Structures & Algorithms,O((V + E) log V) time
+What is the theoretical comparison complexity lower bound for sorting?,dsa_sorting_algorithms,dsa_sorting_algorithms_01,Data Structures & Algorithms,Omega(n log n) comparisons in the worst case
+What causes Quick Sort to degrade to O(n^2) worst case complexity?,dsa_sorting_algorithms,dsa_sorting_algorithms_01,Data Structures & Algorithms,"When unbalanced pivots are selected, e.g. on already sorted arrays"
+What are the five stages of the classic RISC instruction pipeline?,arch_pipeline_cache,arch_pipeline_cache_01,Computer Architecture,"IF, ID, EX, MEM, and WB stages"
+How does data forwarding mitigate pipeline data hazards?,arch_pipeline_cache,arch_pipeline_cache_01,Computer Architecture,Routes internal execution results directly to subsequent instruction inputs
+What is the difference between temporal and spatial locality in CPU caches?,arch_pipeline_cache,arch_pipeline_cache_01,Computer Architecture,Temporal: recently accessed data is accessed again; Spatial: nearby contiguous words are accessed
+What is the difference between symmetric and asymmetric encryption?,sec_cryptography_attacks,sec_cryptography_attacks_01,Cybersecurity,Symmetric uses identical secret key; asymmetric uses public/private key pair
+What defensive countermeasures protect against SQL injection and buffer overflow?,sec_cryptography_attacks,sec_cryptography_attacks_01,Cybersecurity,"Input sanitization, parameterized queries, ASLR, and stack canaries"

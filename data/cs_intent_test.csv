@@ -1,0 +1,121 @@
+question,intent
+What is virtual memory in an operating system?,DESC:definition
+Define database normalization.,DESC:definition
+What is a deadlock in concurrent programming?,DESC:definition
+What is a binary search tree?,DESC:definition
+Define asymmetric encryption in cryptography.,DESC:definition
+What is a transaction in relational databases?,DESC:definition
+What is thrashing in operating systems?,DESC:definition
+Define an instruction pipeline in computer architecture.,DESC:definition
+What is a foreign key in SQL?,DESC:definition
+Define context switching in multi-tasking kernels.,DESC:definition
+What is an abstract syntax tree in compiler design?,DESC:definition
+Define cache coherence in multiprocessor systems.,DESC:definition
+How does the TCP three-way handshake establish a connection?,DESC:procedure
+How does binary search find a target in a sorted array?,DESC:procedure
+How does Dijkstra's algorithm calculate shortest paths?,DESC:procedure
+How does virtual address translation work using page tables?,DESC:procedure
+How does Quick Sort partition an array around a pivot?,DESC:procedure
+How does an operating system handle a page fault trap?,DESC:procedure
+How does Merge Sort divide and conquer an unsorted list?,DESC:procedure
+How does Banker's algorithm verify whether a state is safe?,DESC:procedure
+How does data forwarding resolve pipeline data hazards?,DESC:procedure
+How does two-phase commit achieve distributed transaction atomicity?,DESC:procedure
+How does garbage collection track reachable objects in memory?,DESC:procedure
+How does Breadth-First Search traverse vertices in a graph?,DESC:procedure
+Why do relational databases use write-ahead logging?,DESC:reason
+Why does thrashing occur in virtual memory systems?,DESC:reason
+Why is UDP preferred over TCP for real-time video streaming?,DESC:reason
+Why are B+ trees preferred over binary search trees for disk storage?,DESC:reason
+Why are four Coffman conditions necessary for deadlock to happen?,DESC:reason
+Why does Quick Sort exhibit O(n^2) time complexity in the worst case?,DESC:reason
+Why is temporal locality advantageous in CPU cache design?,DESC:reason
+Why do kernels enforce preemption in CPU scheduling?,DESC:reason
+Why is input sanitization essential to stop SQL injection?,DESC:reason
+Why do distributed systems face the CAP theorem trade-off?,DESC:reason
+Why are immutable objects thread-safe in concurrent programs?,DESC:reason
+Why is normalization necessary in relational schema design?,DESC:reason
+What is the difference between TCP and UDP?,DESC:comparison
+Compare relational databases and NoSQL document stores.,DESC:comparison
+How do processes and threads differ in memory allocation?,DESC:comparison
+What are the differences between symmetric and asymmetric cryptography?,DESC:comparison
+Compare clustered and non-clustered indexes in SQL databases.,DESC:comparison
+How does paging differ from segmentation in memory management?,DESC:comparison
+Compare preemptive and non-preemptive CPU scheduling algorithms.,DESC:comparison
+What is the difference between mutex and semaphore synchronization?,DESC:comparison
+Compare Quick Sort and Merge Sort in terms of worst-case complexity.,DESC:comparison
+How do abstract classes differ from interfaces in object-oriented design?,DESC:comparison
+Compare BFS and DFS in terms of memory consumption on trees.,DESC:comparison
+What is the difference between horizontal and vertical database scaling?,DESC:comparison
+Describe the five stages of the classic RISC instruction pipeline.,DESC:description
+Explain the role of the Translation Lookaside Buffer in memory hierarchies.,DESC:description
+Describe the ACID properties that govern database transactions.,DESC:description
+Explain the functionality of the Transport layer in the OSI model.,DESC:description
+Describe the structure of a B+ tree used for database indexing.,DESC:description
+Explain the purpose and components of the Process Control Block.,DESC:description
+Describe the mechanism of spatial locality in cache memories.,DESC:description
+Explain the Ostrich algorithm for dealing with system deadlocks.,DESC:description
+Describe how digital signatures provide non-repudiation.,DESC:description
+Explain the architecture of a multi-tier client-server web application.,DESC:description
+Describe how address space layout randomization mitigates stack exploitation.,DESC:description
+Explain the structure of an IPv4 packet header.,DESC:description
+What does ACID stand for in database management?,ABBR
+What does TLB stand for in computer hardware?,ABBR
+What does TCP stand for in computer networking?,ABBR
+What does UDP stand for in transport protocols?,ABBR
+What does MMU stand for in memory architectures?,ABBR
+What does PCB stand for in process management?,ABBR
+What does OSI stand for in networking standards?,ABBR
+What does ASLR stand for in software security?,ABBR
+What does XSS stand for in web security?,ABBR
+What does BCNF stand for in relational normalization?,ABBR
+What does CPU stand for in computer systems?,ABBR
+What does RAM stand for in primary storage?,ABBR
+How many layers are in the OSI reference model?,NUM
+What is the average time complexity of binary search?,NUM
+How many conditions must hold simultaneously for a deadlock to occur?,NUM
+How many bytes is the standard UDP header?,NUM
+What is the theoretical comparison complexity lower bound for sorting?,NUM
+How many stages are in the classic RISC pipeline?,NUM
+What is the average case time complexity of Quick Sort?,NUM
+How many bits are in an IPv4 address?,NUM
+How many bits are in an IPv6 address?,NUM
+How many clustered indexes can exist on a single database table?,NUM
+What is the time complexity of Dijkstra algorithm with a binary heap?,NUM
+How many bytes are in a 64-bit memory pointer?,NUM
+What data structure does Java TreeMap use under the hood?,ENTY
+Which transport layer protocol does HTTP/3 use?,ENTY
+What operating system kernel does Ubuntu Linux run on?,ENTY
+Which hashing algorithm is widely used for Git commit identifiers?,ENTY
+What data structure is used to implement a LIFO buffer?,ENTY
+Which cryptographic algorithm is standard for asymmetric key exchange in RSA?,ENTY
+What database storage engine is default in MySQL 8?,ENTY
+Which page replacement algorithm evicts the page with oldest timestamp?,ENTY
+What data structure is used to evaluate postfix arithmetic expressions?,ENTY
+Which protocol resolves an IP address to a physical MAC address?,ENTY
+What standard algorithm detects cycles in directed graphs?,ENTY
+Which scheduling algorithm gives each process a fixed cyclic time quantum?,ENTY
+Who invented the relational database model and relational calculus?,HUM
+Who created the Linux operating system kernel?,HUM
+Who proposed the Banker's algorithm for deadlock avoidance?,HUM
+Who authored the classic algorithm for finding single-source shortest paths in graphs?,HUM
+Who developed the Python programming language?,HUM
+Who designed the C programming language at Bell Labs?,HUM
+Who formulated the four Coffman conditions for deadlocks in 1971?,HUM
+Who invented the World Wide Web and HTTP protocol at CERN?,HUM
+Who designed the RSA public-key cryptosystem along with Shamir and Adleman?,HUM
+Who is considered the pioneer of computer science and the Turing machine?,HUM
+Who introduced Quick Sort in 1959?,HUM
+Who created the Git distributed version control system?,HUM
+Where are local variables allocated during C function execution?,LOC
+Where is the Master Boot Record located on a partitioned disk?,LOC
+Where are page table entries stored in virtual memory systems?,LOC
+Where does the CPU instruction pointer point during execution?,LOC
+Where are dynamically allocated objects stored in C programs using malloc?,LOC
+Where does the operating system store the Process Control Block?,LOC
+Where are CPU registers physically situated within a processor chip?,LOC
+Where is the Translation Lookaside Buffer located in hardware?,LOC
+Where are DNS root nameservers distributed globally?,LOC
+Where is persistent transaction log data written in Write-Ahead Logging?,LOC
+Where are function return addresses stored during recursive calls?,LOC
+Where does the hardware interrupt vector table reside in memory?,LOC

@@ -1,0 +1,56 @@
+id,question,expected_intent,domain,expected_article_id,expected_title,in_scope,split
+test_q01,What is thrashing in operating systems?,Definition,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,test
+test_q02,What is a transaction in database management?,Definition,Database Systems,db_relational_acid,Relational Model and ACID Properties,True,test
+test_q03,What is an instruction pipeline in computer architecture?,Definition,Computer Architecture,arch_pipeline_cache,CPU Pipelining and Cache Hierarchies,True,test
+test_q04,What is asymmetric encryption?,Definition,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,test
+test_q05,What is SQL injection?,Definition,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,test
+test_q06,What is a Binary Search Tree?,Definition,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,test
+test_q07,What is context switching in an operating system?,Definition,Operating Systems,os_process_mgmt,Process Management and Scheduling,True,test
+test_q08,What is Boyce-Codd Normal Form (BCNF)?,Definition,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,test
+test_q09,How does Merge Sort sort an array?,Procedure,Data Structures & Algorithms,dsa_sorting_algorithms,Sorting Algorithms and Computational Complexity,True,test
+test_q10,How does Breadth-First Search traverse a graph?,Procedure,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,test
+test_q11,How does Banker's algorithm avoid deadlocks?,Procedure,Operating Systems,os_deadlock_sync,"Concurrency, Deadlocks, and Synchronization",True,test
+test_q12,How does a page fault get handled by the operating system?,Procedure,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,test
+test_q13,How does data forwarding resolve pipeline data hazards?,Procedure,Computer Architecture,arch_pipeline_cache,CPU Pipelining and Cache Hierarchies,True,test
+test_q14,Why do relational databases require normalization?,Reason,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,test
+test_q15,Why are B+ trees preferred over standard binary trees for disk indexing?,Reason,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,test
+test_q16,Why does Quick Sort have O(n^2) worst case complexity?,Reason,Data Structures & Algorithms,dsa_sorting_algorithms,Sorting Algorithms and Computational Complexity,True,test
+test_q17,Why is temporal locality important for CPU caches?,Reason,Computer Architecture,arch_pipeline_cache,CPU Pipelining and Cache Hierarchies,True,test
+test_q18,Why do operating systems use preemption in CPU scheduling?,Reason,Operating Systems,os_process_mgmt,Process Management and Scheduling,True,test
+test_q19,Why is input sanitization crucial against SQL injection?,Reason,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,test
+test_q20,Compare Quick Sort and Merge Sort.,Comparison,Data Structures & Algorithms,dsa_sorting_algorithms,Sorting Algorithms and Computational Complexity,True,test
+test_q21,What is the difference between paging and segmentation?,Comparison,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,test
+test_q22,Compare BFS and DFS in graph traversal.,Comparison,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,test
+test_q23,What is the difference between a process and a thread?,Comparison,Operating Systems,os_process_mgmt,Process Management and Scheduling,True,test
+test_q24,Compare B-trees and binary search trees.,Comparison,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,test
+test_q25,What does MMU stand for in memory management?,Abbreviation,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,test
+test_q26,What does PCB stand for in process scheduling?,Abbreviation,Operating Systems,os_process_mgmt,Process Management and Scheduling,True,test
+test_q27,What does OSI stand for in network architectures?,Abbreviation,Computer Networks,net_osi_layers,The OSI Seven Layer Architecture,True,test
+test_q28,What does ASLR stand for in cybersecurity?,Abbreviation,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,test
+test_q29,What does XSS stand for in web security?,Abbreviation,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,test
+test_q30,What does BCNF stand for in relational normalization?,Abbreviation,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,test
+test_q31,What is the worst-case comparison complexity lower bound for sorting?,Number,Data Structures & Algorithms,dsa_sorting_algorithms,Sorting Algorithms and Computational Complexity,True,test
+test_q32,How many stages are in the classic RISC instruction pipeline?,Number,Computer Architecture,arch_pipeline_cache,CPU Pipelining and Cache Hierarchies,True,test
+test_q33,What is the average time complexity of Quick Sort?,Number,Data Structures & Algorithms,dsa_sorting_algorithms,Sorting Algorithms and Computational Complexity,True,test
+test_q34,What is the time complexity of Dijkstra algorithm with a binary heap?,Number,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,test
+test_q35,How many clustered indexes can exist on a single SQL table?,Number,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,test
+test_q36,What is the time complexity of Breadth-First Search?,Number,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,test
+test_q37,Describe the structure of an IP packet routing in OSI layer 3.,Description,Computer Networks,net_osi_layers,The OSI Seven Layer Architecture,True,test
+test_q38,Explain how digital signatures provide non-repudiation.,Description,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,test
+test_q39,Describe the concept of spatial locality in cache memories.,Description,Computer Architecture,arch_pipeline_cache,CPU Pipelining and Cache Hierarchies,True,test
+test_q40,Explain the Ostrich algorithm for handling deadlocks.,Description,Operating Systems,os_deadlock_sync,"Concurrency, Deadlocks, and Synchronization",True,test
+test_q41,What is the chemical formula for water?,Entity,Chemistry,,,False,test
+test_q42,Who won the FIFA World Cup in 2022?,Human,Sports,,,False,test
+test_q43,Why do leaves change color in autumn?,Reason,Botany,,,False,test
+test_q44,What is the boiling point of ethanol?,Number,Chemistry,,,False,test
+test_q45,Where is the Colosseum located?,Location,History,,,False,test
+test_q46,What causes the aurora borealis?,Reason,Astronomy,,,False,test
+test_q47,Who painted the Mona Lisa?,Human,Art,,,False,test
+test_q48,How do vaccines stimulate the human immune system?,Procedure,Medicine,,,False,test
+test_q49,What is the capital of Australia?,Location,Geography,,,False,test
+test_q50,Why do tides occur in oceans?,Reason,Oceanography,,,False,test
+test_q51,What is the primary function of mitochondria?,Definition,Biology,,,False,test
+test_q52,How many bones are in the adult human body?,Number,Anatomy,,,False,test
+test_q53,Where was the ancient city of Pompeii located?,Location,History,,,False,test
+test_q54,What is the difference between an alligator and a crocodile?,Comparison,Zoology,,,False,test
+test_q55,How does a solar panel convert sunlight into electricity?,Procedure,Renewable Energy,,,False,test

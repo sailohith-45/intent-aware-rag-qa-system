@@ -1,0 +1,51 @@
+id,question,expected_intent,domain,expected_article_id,expected_title,in_scope,split
+dev_q01,What is a process in an operating system?,Definition,Operating Systems,os_process_mgmt,Process Management and Scheduling,True,dev
+dev_q02,What is virtual memory?,Definition,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,dev
+dev_q03,What is a deadlock?,Definition,Operating Systems,os_deadlock_sync,"Concurrency, Deadlocks, and Synchronization",True,dev
+dev_q04,What is database normalization?,Definition,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,dev
+dev_q05,What is an index in a database?,Definition,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,dev
+dev_q06,What is a buffer overflow?,Definition,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,dev
+dev_q07,What is a semaphore in concurrency?,Definition,Operating Systems,os_deadlock_sync,"Concurrency, Deadlocks, and Synchronization",True,dev
+dev_q08,How does the TCP three-way handshake establish a connection?,Procedure,Computer Networks,net_tcp_udp,Transport Layer Protocols: TCP and UDP,True,dev
+dev_q09,How does binary search work on a sorted array?,Procedure,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,dev
+dev_q10,How does Quick Sort partition an array?,Procedure,Data Structures & Algorithms,dsa_sorting_algorithms,Sorting Algorithms and Computational Complexity,True,dev
+dev_q11,How does virtual address translation work with paging?,Procedure,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,dev
+dev_q12,How does Dijkstra's algorithm find the shortest path?,Procedure,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,dev
+dev_q13,Why do databases use write-ahead logging?,Reason,Database Systems,db_relational_acid,Relational Model and ACID Properties,True,dev
+dev_q14,Why does thrashing happen in virtual memory systems?,Reason,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,dev
+dev_q15,Why is UDP preferred over TCP for real-time video streaming?,Reason,Computer Networks,net_tcp_udp,Transport Layer Protocols: TCP and UDP,True,dev
+dev_q16,Why are four conditions required for deadlock to occur?,Reason,Operating Systems,os_deadlock_sync,"Concurrency, Deadlocks, and Synchronization",True,dev
+dev_q17,What is the difference between TCP and UDP?,Comparison,Computer Networks,net_tcp_udp,Transport Layer Protocols: TCP and UDP,True,dev
+dev_q18,Compare preemptive and non-preemptive CPU scheduling.,Comparison,Operating Systems,os_process_mgmt,Process Management and Scheduling,True,dev
+dev_q19,What is the difference between symmetric and asymmetric cryptography?,Comparison,Cybersecurity,sec_cryptography_attacks,Cryptography and Common Vulnerabilities,True,dev
+dev_q20,Compare clustered and non-clustered indexes in databases.,Comparison,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,dev
+dev_q21,How do mutex and semaphore differ in synchronization?,Comparison,Operating Systems,os_deadlock_sync,"Concurrency, Deadlocks, and Synchronization",True,dev
+dev_q22,What does ACID stand for in databases?,Abbreviation,Database Systems,db_relational_acid,Relational Model and ACID Properties,True,dev
+dev_q23,What does TLB stand for in computer architecture?,Abbreviation,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,dev
+dev_q24,What does TCP stand for in networking?,Abbreviation,Computer Networks,net_tcp_udp,Transport Layer Protocols: TCP and UDP,True,dev
+dev_q25,What does UDP stand for in computer networks?,Abbreviation,Computer Networks,net_tcp_udp,Transport Layer Protocols: TCP and UDP,True,dev
+dev_q26,How many layers are in the OSI model?,Number,Computer Networks,net_osi_layers,The OSI Seven Layer Architecture,True,dev
+dev_q27,What is the time complexity of binary search?,Number,Data Structures & Algorithms,dsa_trees_graphs,"Trees, Graphs, and Asymptotic Complexity",True,dev
+dev_q28,How many conditions are required for deadlock according to Coffman?,Number,Operating Systems,os_deadlock_sync,"Concurrency, Deadlocks, and Synchronization",True,dev
+dev_q29,How many bytes is the UDP header?,Number,Computer Networks,net_tcp_udp,Transport Layer Protocols: TCP and UDP,True,dev
+dev_q30,Describe the stages of the classic RISC pipeline.,Description,Computer Architecture,arch_pipeline_cache,CPU Pipelining and Cache Hierarchies,True,dev
+dev_q31,Explain the role of the TLB in memory management.,Description,Operating Systems,os_virtual_memory,Virtual Memory and Paging,True,dev
+dev_q32,Describe the ACID properties of database transactions.,Description,Database Systems,db_relational_acid,Relational Model and ACID Properties,True,dev
+dev_q33,Explain the function of the Transport layer in OSI.,Description,Computer Networks,net_osi_layers,The OSI Seven Layer Architecture,True,dev
+dev_q34,Describe the B+ Tree data structure used for database indexes.,Description,Database Systems,db_normalization_indexes,Database Normalization and B-Tree Indexing,True,dev
+dev_q35,Explain the role of the Process Control Block.,Description,Operating Systems,os_process_mgmt,Process Management and Scheduling,True,dev
+dev_q36,What is the capital city of France?,Location,Geography,,,False,dev
+dev_q37,How do you make chocolate chip cookies from scratch?,Procedure,Cooking,,,False,dev
+dev_q38,Who was the first president of the United States?,Human,History,,,False,dev
+dev_q39,Why is the sky blue during the daytime?,Reason,Physics,,,False,dev
+dev_q40,What is photosynthesis in plant biology?,Definition,Biology,,,False,dev
+dev_q41,How much does an adult African elephant weigh?,Number,Zoology,,,False,dev
+dev_q42,What are the rules of cricket?,Description,Sports,,,False,dev
+dev_q43,What causes tectonic earthquakes in geology?,Reason,Geology,,,False,dev
+dev_q44,Who directed the movie Inception?,Human,Cinema,,,False,dev
+dev_q45,What is the currency used in Japan?,Entity,Economics,,,False,dev
+dev_q46,How tall is Mount Everest?,Number,Geography,,,False,dev
+dev_q47,What is the speed of light in vacuum?,Number,Physics,,,False,dev
+dev_q48,Who wrote the play Romeo and Juliet?,Human,Literature,,,False,dev
+dev_q49,Where is the Great Barrier Reef located?,Location,Geography,,,False,dev
+dev_q50,How do airplanes generate lift during flight?,Procedure,Aviation,,,False,dev

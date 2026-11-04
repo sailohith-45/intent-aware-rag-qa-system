@@ -1,0 +1,450 @@
+{
+  "canonical_test_size": 510,
+  "raw_train_samples_parsed": 5452,
+  "removed_leakage_samples": [
+    {
+      "question": "What is viscosity ?",
+      "intent": "DESC:definition",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "How many hearts does an octopus have ?",
+      "intent": "NUM",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What are amphibians ?",
+      "intent": "DESC:definition",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What are the Twin Cities ?",
+      "intent": "DESC:definition",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What is the largest city in the world ?",
+      "intent": "LOC",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What is leukemia ?",
+      "intent": "DESC:definition",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What is diabetes ?",
+      "intent": "DESC:definition",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "How far away is the moon ?",
+      "intent": "NUM",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What does NASA stand for ?",
+      "intent": "ABBR",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What is the Milky Way ?",
+      "intent": "DESC:definition",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    },
+    {
+      "question": "What does CPR stand for ?",
+      "intent": "ABBR",
+      "reason": "Exact match with held-out test set question (upstream TREC overlap)"
+    }
+  ],
+  "removed_internal_duplicates": [
+    {
+      "question": "What is the speed of the Mississippi River ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the speed of the Mississippi River ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How many degrees cooler is the inside of a cucumber than the air outside ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What does an average daycare provider get paid in New England ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the oldest website on the Internet ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What musical instrument did Prewitt play in James Jones 's From Here to Eternity ?",
+      "intent": "ENTY",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What was the U.S. highway death toll in 1969 ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the latitude and longitude of El Paso , Texas ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What are Maid-Rites ?",
+      "intent": "DESC:definition",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What war saw battles at Parrot 's Beak and Black Virgin ?",
+      "intent": "ENTY",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the current ticket fare from from Cairo to Barbados ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is a person called that likes fire ?",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Which two products use a tiger as their symbol ?",
+      "intent": "ENTY",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is Columbia Tristar 's phone number ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How many URL extensions are there ? and what are they ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How long does it take for your blood to make one complete trip through the body ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What was Einstein 's IQ ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is a virtual IP address ?",
+      "intent": "DESC:definition",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is e-commerce ?",
+      "intent": "DESC:definition",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the average cost for four years of medical school ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the HIGHEST Roman numeral ?",
+      "intent": "DESC:definition",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Name the Ranger who was always after Yogi Bear .",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What 's a perfect score in a gymnastics exercise ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What Russian seaport has a name meaning `` Lord of the East '' ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What causes rust ?",
+      "intent": "DESC:reason",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the name of the planet that the Ewoks live on ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How is the element strontium purified ?",
+      "intent": "DESC:procedure",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How many meters are in a mile ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What are the chances of pregnacy if the penis does not penetrate the vagina ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What river runs through Liverpool ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is a fear of food ?",
+      "intent": "ENTY",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How much caffeine is in a 16 oz cup of coffee ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Who is Desmond Tutu ?",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the probability that at least 2 out of 25 people will have the same birthday ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the horsepower of the shuttle boosters ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What was the first minimum wage ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What chapter of Gone with the Wind has Rhett Butler leaving Scarlett O 'Hara ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What chapter of the Bible has the most verses ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What California bridge was Don Brown the first to cross , on May 27 , 1937 ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How do you say 2 in Latin ?",
+      "intent": "ENTY",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Who was the second man to walk on the moon ?",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What seven digits follow the area code in the number for long distance information ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the Homelite Inc. home page ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Where does the U.S. rank among world countries in area ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What fraction of a beaver 's life is spent swimming ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How many dots make up the symbol for `` because '' ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the Homelite Inc. home page ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is Columbia Tristar 's phone number ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What 's the American dollar equivalent for 8 pounds in the U.K. ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How many colors are there in a rainbow ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the latitude and longitude of El Paso , Texas ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is object-oriented design ?",
+      "intent": "DESC:definition",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What were the first three cities to have a population of more than a million ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Name of heroine in `` Scruples '' ?",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the frequency of VHF ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the chemical reactivity of neon ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the oldest website on the Internet ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What are the odds of giving birth to twins ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the name of the planet that the Ewoks live on ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What 's men 's par on a 455-yard golf hole ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What are the unemployment statistics for the years 1965 and 1990 ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is idealab ! ?",
+      "intent": "DESC:definition",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the origin of U.S. Army sergeant 's stripes ?",
+      "intent": "DESC:description",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What seven digits follow the area code in the number for long distance information ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What Pope inaugurated Vatican International Radio ?",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How deep is a fathom ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the chromosome number of an elephant ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "How deep is a fathom ?",
+      "intent": "NUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What corporation does Madonna advertise for ?",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Where was George Washington born ?",
+      "intent": "LOC",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "What is the origin of thank you notes ?",
+      "intent": "DESC:description",
+      "reason": "Internal duplicate question within raw training split"
+    },
+    {
+      "question": "Who was the lawyer who represented Randy Steven Craft ?",
+      "intent": "HUM",
+      "reason": "Internal duplicate question within raw training split"
+    }
+  ],
+  "final_train_size": 5409,
+  "final_test_size": 510,
+  "train_class_distribution": {
+    "ENTY": 1245,
+    "HUM": 1215,
+    "NUM": 856,
+    "LOC": 823,
+    "DESC:definition": 409,
+    "DESC:procedure": 275,
+    "DESC:description": 272,
+    "DESC:reason": 190,
+    "ABBR": 84,
+    "DESC:comparison": 40
+  },
+  "test_class_distribution": {
+    "DESC:definition": 123,
+    "NUM": 113,
+    "ENTY": 94,
+    "LOC": 81,
+    "HUM": 65,
+    "DESC:comparison": 10,
+    "ABBR": 9,
+    "DESC:description": 7,
+    "DESC:reason": 6,
+    "DESC:procedure": 2
+  },
+  "classes_verified_all_10": true
+}
