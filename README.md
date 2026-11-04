@@ -103,7 +103,7 @@ Evaluates 24 safe/defensive queries and 16 harmful/adversarial queries across ca
 
 #### A. Clean TREC Test Split ($N=510$, Zero Leakage)
 - Training samples: 5,409 (audited, 11 overlapping upstream test questions removed).
-- Test samples: 510 canonical questions.
+- Test samples: 510 evaluation questions (500 canonical TREC test questions + 10 curated CS comparison questions added to cover the 10th taxonomy class `DESC:comparison`).
 
 | Model / Weighting | Accuracy | Macro-Precision | Macro-Recall | Macro-F1 |
 |---|:---:|:---:|:---:|:---:|
@@ -257,12 +257,15 @@ python rag_system.py
 # Run all unit tests
 python -m unittest discover tests
 
-# Run individual evaluations
+# Run all evaluations sequentially
+python evaluate.py --all
+
+# Or run individual evaluations
 python evaluate.py --safety      # Safety benchmark (40 items)
 python evaluate.py --intent      # TREC & CS intent classification
 python evaluate.py --retrieval   # Article and passage retrieval
 python evaluate.py --oos         # Dev calibration & held-out test
-python evaluate.py --full        # Full pipeline evaluation
+python evaluate.py --full        # Full pipeline end-to-end evaluation
 
 # Run empirical performance benchmark
 python benchmark_performance.py

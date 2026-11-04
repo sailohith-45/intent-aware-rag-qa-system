@@ -8,17 +8,17 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+/build/
 develop-eggs/
-dist/
-downloads/
+/dist/
+/downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
-sdist/
-var/
+/sdist/
+/var/
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -29,9 +29,9 @@ MANIFEST
 # Virtual Environments
 .env
 .venv
-env/
-venv/
-ENV/
+/env/
+/venv/
+/ENV/
 env.bak/
 venv.bak/
 
@@ -41,8 +41,8 @@ venv.bak/
 
 # Model checkpoints, large weights and local caches
 .cache/
-hf_cache/
-models/
+/hf_cache/
+/models/
 *.bin
 !artifacts/*.bin
 *.pt

@@ -1,16 +1,15 @@
 # Core Deep Learning and Natural Language Processing
-torch>=2.0.0
-transformers>=4.35.0
-sentence-transformers>=2.2.0
-accelerate>=0.24.0
-sentencepiece>=0.1.99
+torch==2.8.0
+transformers==5.22.1
+sentence-transformers==6.2.0
+accelerate==1.10.1
 
 # Vector Search and Classical ML
-faiss-cpu>=1.7.4
-scikit-learn>=1.3.0
+faiss-cpu==1.15.1
+scikit-learn==1.7.2
 
 # Data Manipulation & Numerical Computation
-pandas>=2.0.0
-numpy>=1.24.0
-joblib>=1.3.0
-tqdm>=4.66.0
+pandas==2.3.2
+numpy==1.26.4
+joblib==1.5.2
+tqdm==4.67.1
